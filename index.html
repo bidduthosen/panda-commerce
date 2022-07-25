@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>panda commarec</title>
+    <!-- boostart styleshet  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesame -->
+    <script src="https://kit.fontawesome.com/45f7665e19.js" crossorigin="anonymous"></script>
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <!-- navbar start  -->
+    <header class="mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg bg-light">
+            <div class="container">
+              <img class="img-fluid" src="images/logo.png" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                    <input class="form-control ms-4" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- navbar end  -->
+    <main>
+        <!-- banner part start -->
+        <div class="container">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active rounded-4 p-5 banner-items ">
+                <div class="row">
+                  <div class="col-lg-7 d-flex align-items-center">
+                    <div class="banner-info">
+                      <h1>Cool Dude Headphone</h1>
+                      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      <h3>$420</h3>
+                      <div class="btn btn-warning px-5 py-3">BUY NOW
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active rounded-4 p-5 banner-items ">
+                <div class="row">
+                  <div class="col-lg-7 d-flex align-items-center">
+                    <div class="banner-info">
+                      <h1>X-Box for your living room</h1>
+                      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      <h3>$600</h3>
+                      <div class="btn btn-warning px-5 py-3">BUY NOW
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active rounded-4 p-5 banner-items ">
+                <div class="row">
+                  <div class="col-lg-7 d-flex align-items-center">
+                    <div class="banner-info">
+                      <h1>Mega LCD TV For Sports</h1>
+                      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      <h3>$1289</h3>
+                      <div class="btn btn-warning px-5 py-3">BUY NOW
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- banner part start -->
+        <!-- Categories start -->
+        <section class="my-5">
+          <div class="container">
+            <div class="row g-2">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="bg-warning bg-opacity-75 d-flex  align-items-center justify-content-between rounded-2 px-5 py-1">
+                  <h2 class="text-white">Watch</h2>
+                  <img src="images/categories/watch.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="bg-warning bg-opacity-75 d-flex  align-items-center justify-content-between rounded-2 px-5 py-1">
+                  <h2 class="text-white">Watch</h2>
+                  <img src="images/categories/bag.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="bg-warning bg-opacity-75 d-flex  align-items-center justify-content-between rounded-2 px-5 py-1">
+                  <h2 class="text-white">Watch</h2>
+                  <img src="images/categories/shoes.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Categories end -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
